@@ -86,8 +86,8 @@ void output_bin ( T x, int len )
 	// int len = 8 * sizeof ( T );
 	for ( int j = len-1; j >= 0; j-- )
 	{
-		cout << ((x >> j) & 1 );
-		// if ( j%8 == 0 )
-		//	cout << " ";
+        cout << ((x >> j) & 1 );
+        if ( j%8 == 0 )
+            cout << " ";
 	}
 }
