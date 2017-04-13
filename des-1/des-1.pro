@@ -7,10 +7,7 @@ SOURCES += main.cpp \
     des.cpp \
     util.cpp
 
-OTHER_FILES +=
+INCLUDEPATH += \
+    ../include
 
-HEADERS += \
-    des.h \
-    util.h \
-    vchtest.h
 
