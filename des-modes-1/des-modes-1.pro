@@ -11,6 +11,7 @@ SOURCES += main.cpp \
 HEADERS += \
     des.h \
     dmodes.h \
-    util.h \
     vchtest.h
 
+INCLUDEPATH += \
+    ../include

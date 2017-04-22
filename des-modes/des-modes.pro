@@ -9,6 +9,7 @@ SOURCES += main.cpp \
 
 HEADERS += \
     des.h \
-    util.h \
     vchtest.h
 
+INCLUDEPATH += \
+    ../include
